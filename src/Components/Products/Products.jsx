@@ -44,7 +44,7 @@ const Products = () => {
                                     <div>show Now</div>
                                 </div>
 
-                                <img src={product.img} alt="Product Image" className="img-p" />
+                                <img src={product.img} alt="Products" className="img-p" />
                             </div>
                         ))
                     }

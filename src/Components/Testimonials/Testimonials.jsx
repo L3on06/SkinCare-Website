@@ -14,7 +14,7 @@ const Testimonials = () => {
                         Exercise joy man children rejoiced</span>
                 </div>
 
-                <img src={Hero} alt="hero image" />
+                <img src={Hero} alt="Hero" />
 
                 <div className={css.container}>
                     <span>100k</span>
