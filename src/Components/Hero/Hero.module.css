@@ -72,24 +72,22 @@
     justify-content: center;
 }
 
-
-
-
-
-
-
-
 .h_sliders {
     display: grid;
     grid-template-rows: 1fr 1fr;
 }
 
+.h_sliders>div {
+    opacity: 0;
+}
+
 .text1 {
     text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: 2rem;
     width: min-content;
     display: block;
     font-weight: 600;
+    opacity: 0;
 }
 
 .text2 {
@@ -97,6 +95,8 @@
     flex-direction: column;
     width: min-content;
     color: black;
+    opacity: 0;
+
 }
 
 .text2>:first-child {
