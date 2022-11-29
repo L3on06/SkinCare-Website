@@ -28,6 +28,8 @@
     gap: 2rem;
     font-weight: 500;
     font-size: 1.3rem;
+    cursor: pointer;
+    scroll-behavior: smooth;
 }
 
 .menu>li:hover {
@@ -61,4 +63,44 @@
     top: 3rem;
     width: 6rem;
     height: 11rem;
+}
+
+@media screen and (max-width: 640px) {
+    .menu {
+        margin-left: -3rem;
+        gap: 1rem;
+        flex-wrap: wrap;
+        width: 100%;
+        font-size: 1.2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .product {
+        width: 15rem;
+    }
+}
+
+
+@media screen and (max-width: 856px) {
+    .container {
+        gap: 1rem;
+    }
+
+    .container>:nth-child(1) {
+        display: none;
+    }
+
+    .products {
+        grid-template-columns: none;
+        gap: 1rem;
+    }
+
+    .menu {
+        flex-direction: row;
+    }
 }

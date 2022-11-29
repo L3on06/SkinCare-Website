@@ -22,6 +22,18 @@ const Slider = () => {
                 spaceBetween={40}
                 slidesPerGroup={1}
                 loop={true}
+                breakpoints={{
+                    640: {
+                        slidesPerView: 3
+                    },
+                    400: {
+                        slidesPerView: 2
+                    },
+                    0: {
+                        slidesPerView: 1
+                    }
+
+                }}
                 className="mySwiper"
             >
                 {SliderProducts.map((slide, idx) => (
