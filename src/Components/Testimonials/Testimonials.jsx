@@ -22,15 +22,15 @@ const Testimonials = () => {
                 </div>
             </div>
 
-            <div className={css.reviews}>
-                Reviews
-            </div>
+            <div className={css.reviews}><p>Reviews</p></div>
 
             <div className={css.carousel}>
                 <Swiper
                     slidesPerView={3}
                     slidesPerGroup={1}
                     spaceBetween={20}
+                    grabCursor={true}
+                    className={css.tCarousel}
                     breakpoints={{
                         856: {
                             slidesPerView: 3
@@ -41,9 +41,7 @@ const Testimonials = () => {
                         0: {
                             slidesPerView: 1
                         }
-                    }}
-                    className={css.tCarousel}
-                >
+                    }}>
                     {
                         TestimonialsData.map((testimonial, idx) => (
                             <SwiperSlide>

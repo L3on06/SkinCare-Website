@@ -32,11 +32,14 @@
     scroll-behavior: smooth;
 }
 
+.menu>li {
+    transition: all 0.2s ease;
+}
+
 .menu>li:hover {
     color: var(--pink);
     cursor: pointer;
 }
-
 
 .list {
     display: grid;
@@ -61,7 +64,7 @@
 
 .product>img {
     top: 3rem;
-    width: 6rem;
+    width: 5rem;
     height: 11rem;
 }
 

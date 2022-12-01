@@ -6,17 +6,11 @@ import { useAutoAnimate } from "@formkit/auto-animate/react"
 
 const Products = () => {
     const [parent] = useAutoAnimate()
-
     const [menuProducts, setMenuProducts] = useState(ProductsData);
-
-
 
     const filter = (type) => {
         setMenuProducts(ProductsData.filter((product) => product.type === type))
     }
-
-
-
 
     return (
         <div className={css.container}>
@@ -30,7 +24,6 @@ const Products = () => {
                     <li onClick={() => filter("conditioner")}>Conditioners</li>
                     <li onClick={() => filter("foundation")}>Foundations</li>
                 </ul>
-
                 <div className={css.list} ref={parent}>
                     {
                         menuProducts.map((product, idx) => (

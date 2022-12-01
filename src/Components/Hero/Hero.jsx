@@ -13,17 +13,15 @@ const Hero = () => {
         <div className={css.container}>
             <div className={css.h_sliders}>
                 <motion.span
-                    // initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     transition={{ duration: 0.8, delay: 1 }}
                     className={css.text1}>Skin Protect Care</motion.span>
                 <motion.div
-                    // initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     transition={{ duration: 0.8, delay: 1.2 }}
                     className={css.text2}>
                     <span>Trendy Collection</span>
-                    <span>Blanditiis voluptatum commodi officiis magni optio, pariatur repellendus!</span>
+                    <span>Blanditiis voluptatum pariatur repellendus!</span>
                 </motion.div>
             </div>
 
@@ -53,8 +51,6 @@ const Hero = () => {
                     </div>
                 </motion.div>
             </div>
-
-
             <div className={css.h_sliders}>
                 <motion.div
                     initial={{ opacity: 0 }}

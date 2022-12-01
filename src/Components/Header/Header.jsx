@@ -5,14 +5,13 @@ import { CgShoppingBag } from "react-icons/cg"
 import { GoThreeBars } from "react-icons/go"
 import { GrClose } from "react-icons/gr"
 
-
 const Header = () => {
     const [showmenu, setShowMenu] = useState(true);
-
 
     const toggleMenu = () => {
         setShowMenu(!showmenu)
     }
+
     return (
         <div className={css.container}>
             <div className={css.logo}>
@@ -21,7 +20,6 @@ const Header = () => {
             </div>
 
             <div className={css.right}>
-
                 <div className={css.bars} onClick={toggleMenu} style={{ left: showmenu ? "1.7rem" : "0" }}>
                     {
                         showmenu ? <GrClose /> : <GoThreeBars />

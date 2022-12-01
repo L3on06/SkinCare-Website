@@ -1,7 +1,7 @@
 import React from "react";
 import css from "./Footer.module.css";
-
 import Logo from "../../assets/logo.png";
+
 const Footer = () => {
     return (
 
@@ -57,9 +57,7 @@ const Footer = () => {
                         </span>
                     </div>
                 </div>
-
             </div>
-
             <div className={css.copyRight}>
                 <span>Copyright @2022 by Amazon, Inc.</span>
                 <span>All rights reserved</span>
