@@ -68,6 +68,7 @@
     .right {
         gap: 1rem;
     }
+
 }
 
 @media screen and (max-width: 640px) {

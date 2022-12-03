@@ -53,7 +53,7 @@
 }
 
 .left-s>:nth-child(3):hover {
-    background-color: var(--bg);
+    background-color: var(--pink);
 }
 
 .name {

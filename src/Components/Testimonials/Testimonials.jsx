@@ -28,7 +28,7 @@ const Testimonials = () => {
                 <Swiper
                     slidesPerView={3}
                     slidesPerGroup={1}
-                    spaceBetween={20}
+                    spaceBetween={30}
                     grabCursor={true}
                     className={css.tCarousel}
                     breakpoints={{
