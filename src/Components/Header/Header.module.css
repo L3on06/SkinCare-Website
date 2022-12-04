@@ -51,12 +51,18 @@
     border: none;
     border-radius: 25px;
     padding: 0.5rem;
+    color: #fe956f;
 }
 
 .cart {
     width: 1.5rem;
     height: 1.5rem;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.cart:hover {
+    color: #fe956f;
 }
 
 .bars {

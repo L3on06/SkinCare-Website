@@ -49,7 +49,7 @@ export const TestimonialsData = [
     {
         image: profile10,
         comment: "Amazing as always. I have been using Conscious Skincare for over a year now (my mom as well!) and all of the products are incredibly good to my skin. Highly recommended!",
-        name: "Alyssa "
+        name: "Rock"
     },
     {
         image: profile6,

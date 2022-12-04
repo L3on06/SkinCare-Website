@@ -12,7 +12,6 @@ const Footer = () => {
                     <img src={Logo} alt="Footer Logo" />
                     <span>amazon</span>
                 </div>
-
                 <div className={css.block}>
                     <div className={css.detail}>
                         <span>Contact Us</span>
@@ -48,7 +47,7 @@ const Footer = () => {
                         </span>
                     </div>
                 </div>
-                <div className={css.block}>
+                {/* <div className={css.block}>
                     <div className={css.detail}>
                         <span>Resources</span>
                         <span className={css.pngLine}>
@@ -56,7 +55,7 @@ const Footer = () => {
                             <span>Safety Privacy & Terms</span>
                         </span>
                     </div>
-                </div>
+                </div> */}
             </div>
             <div className={css.copyRight}>
                 <span>Copyright @2022 by Amazon, Inc.</span>

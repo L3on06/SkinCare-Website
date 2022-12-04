@@ -1,6 +1,5 @@
 .cFooterWrapper {
     width: 100%;
-    margin-top: 5rem;
 }
 
 .cFooterWrapper>hr {
@@ -8,7 +7,6 @@
     height: 1px;
     border: none;
     background: white;
-    margin-top: 1rem;
 }
 
 .cFooter {

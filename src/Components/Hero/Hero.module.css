@@ -75,6 +75,13 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition: all 1s ease;
+}
+
+.signup>:nth-child(2):hover {
+    background-color: var(--pink);
+    /* color: var(--pink); */
+    border: 1px solid var(--pink);
 }
 
 .h_sliders {

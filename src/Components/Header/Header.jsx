@@ -32,7 +32,7 @@ const Header = () => {
                     <li>Brands</li>
                 </ul>
 
-                <input type="text" className={css.search} placeholder="Search..." />
+                <input type="text" className={css.search} placeholder="Search..." spellCheck="false" />
                 <CgShoppingBag className={css.cart} />
             </div>
         </div>

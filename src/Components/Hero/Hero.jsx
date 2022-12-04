@@ -4,6 +4,8 @@ import HeroImg from "../../assets/hero.png";
 import { RiShoppingBagFill } from "react-icons/ri"
 import { BsArrowRight } from "react-icons/bs"
 import { motion } from "framer-motion"
+import CountUp from "react-countup";
+
 
 const Hero = () => {
 
@@ -57,7 +59,7 @@ const Hero = () => {
                     whileInView={{ opacity: 1 }}
                     transition={{ duration: 0.8, delay: 1.4 }}
                     className={css.traffic}>
-                    <span>1.5m</span>
+                    <span><CountUp end={1.8} duration={5} suffix="m" decimals={1} /></span>
                     <span>Monthy Traffic</span>
                 </motion.div>
 
@@ -66,7 +68,7 @@ const Hero = () => {
                     whileInView={{ opacity: 1 }}
                     transition={{ duration: 0.8, delay: 1.6 }}
                     className={css.customers}>
-                    <span>200k</span>
+                    <span><CountUp end={100} duration={5} suffix="K" /></span>
                     <span>Happy Customers</span>
                 </motion.div>
             </div>
