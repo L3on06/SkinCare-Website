@@ -39,7 +39,7 @@ export const TestimonialsData = [
     {
         image: profile1,
         comment: "The face wash arrived quickly, was well-packaged, and seems to work wonders. It doesn't leave my face feeling oily or stripped. Some face washes leave a weird residue behind but not this one! Hannah",
-        name: "Wanda Alex"
+        name: "Hannah"
     },
     {
         image: profile9,
@@ -58,7 +58,7 @@ export const TestimonialsData = [
     },
     {
         image: profile8,
-        comment: "The face wash arrived quickly, was well-packaged, and seems to work wonders. It doesn't leave my face feeling oily or stripped. Some face washes leave a weird residue behind but not this one! Hannah",
+        comment: "The face wash arrived quickly, was well-packaged, and seems to work wonders. It doesn't leave my face feeling oily or stripped. Some face washes leave a weird residue behind but not this one!",
         name: "Alison x"
     },
 

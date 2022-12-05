@@ -1,24 +1,16 @@
-import './App.css';
-import Footer from './Components/Footer/Footer';
-import Header from './Components/Header/Header';
-import Hero from './Components/Hero/Hero';
-import Products from './Components/Products/Products';
-import Slider from './Components/Slider/Slider';
-import Testimonials from './Components/Testimonials/Testimonials';
-import Virtual from './Components/Virtual/Virtual';
+import { Route, Routes } from "react-router-dom"
+import Home from "./Pages/Home"
+import Products from "./Pages/Products";
+import Brands from "./Pages/Brands"
 
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Hero />
-      <Slider />
-      <Virtual />
-      <Products />
-      <Testimonials />
-      <Footer />
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />}></Route>
+      <Route path="/Products" element={<Products />}></Route>
+      <Route path="/Brands" element={<Brands />}></Route>
+    </Routes>
   );
 }
 

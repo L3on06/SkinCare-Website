@@ -4,6 +4,7 @@ import Logo from "../../assets/logo.png"
 import { CgShoppingBag } from "react-icons/cg"
 import { GoThreeBars } from "react-icons/go"
 import { GrClose } from "react-icons/gr"
+import { Link } from "react-router-dom"
 
 const Header = () => {
     const [showmenu, setShowMenu] = useState(true);
@@ -27,9 +28,9 @@ const Header = () => {
                 </div>
 
                 <ul className={css.menu} style={{ display: showmenu ? "inherit" : "none" }}>
-                    <li>Home</li>
-                    <li>Products</li>
-                    <li>Brands</li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/Products">Products</Link></li>
+                    <li><Link to="/Brands">Brands</Link></li>
                 </ul>
 
                 <input type="text" className={css.search} placeholder="Search..." spellCheck="false" />

@@ -37,6 +37,7 @@
 
 .menu>li {
     transition: all 0.2s ease;
+    z-index: 1;
 }
 
 .menu>li:hover {
