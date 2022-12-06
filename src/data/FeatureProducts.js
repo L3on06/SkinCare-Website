@@ -13,16 +13,16 @@ import img12 from '../assets/img12.png'
 import img13 from '../assets/img13.png'
 import img14 from '../assets/img14.png'
 
-export const ProductsData = [{
+export const FeatureProductsData = [{
     name: 'SKIN',
-    detail: 'SEA Mermaid Skin Hyaluronic H2O Serum.',
+    detail: 'Super Skin Care',
     price: '15',
     img: img1,
     type: 'skin care',
 },
 {
     name: 'SKIN',
-    detail: 'Mario Badescu Facial Spray with Aloe, Herbs and Rosewater for All Skin Types.',
+    detail: 'Super Skin Care',
     price: '30',
     img: img2,
     type: 'skin care',
@@ -36,7 +36,7 @@ export const ProductsData = [{
 },
 {
     name: 'Foundation',
-    detail: 'The face wash arrived quickly, was well-pac. The face wash arrived quickly, was well-pac.The face wash arrived quickly, was well-pac.',
+    detail: 'Super Skin Care',
     price: '25',
     img: img4,
     type: 'foundation',

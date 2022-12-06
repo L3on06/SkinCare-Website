@@ -16,8 +16,8 @@ const Header = () => {
     return (
         <div className={css.container}>
             <div className={css.logo}>
-                <img src={Logo} alt="Logo" />
-                <span>Skin Care</span>
+                <Link to="/"><img src={Logo} alt="Logo" /></Link>
+                <span><Link to="/">Skin Care</Link></span>
             </div>
 
             <div className={css.right}>
