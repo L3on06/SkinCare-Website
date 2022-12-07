@@ -33,7 +33,6 @@ const Header = () => {
                     <li><Link to="/Brands">Brands</Link></li>
                 </ul>
 
-                <input type="text" className={css.search} placeholder="Search..." spellCheck="false" />
                 <CgShoppingBag className={css.cart} />
             </div>
         </div>

@@ -1,13 +1,13 @@
 import '../App.css';
 import Header from '../Components/Header/Header';
-import Slider from '../Components/Slider/Slider';
+import Brands from '../Components/Brands/Brands';
 import Footer from '../Components/Footer/Footer';
 
 function App() {
     return (
         <div className="App">
             <Header />
-            <Slider />
+            <Brands />
             <Footer />
         </div>
     );

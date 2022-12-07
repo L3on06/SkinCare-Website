@@ -45,16 +45,6 @@
     cursor: pointer;
 }
 
-.search {
-    width: 7rem;
-    height: 30%;
-    outline: none;
-    border: none;
-    border-radius: 25px;
-    padding: 0.5rem;
-    color: #fe956f;
-}
-
 .cart {
     width: 1.5rem;
     height: 1.5rem;
