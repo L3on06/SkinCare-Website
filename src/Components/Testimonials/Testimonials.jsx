@@ -1,6 +1,6 @@
 import React from "react";
 import css from "./Testimonials.module.css"
-import Hero from "../../assets/testimonialHero.png"
+import Hero from "../../assets/General/testimonialHero.png"
 import { TestimonialsData } from "../../data/testimonials";
 import { Swiper, SwiperSlide } from "swiper/react"
 

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import css from "./Products.module.css"
 import { ProductsData } from "../../data/Products"
 import { useAutoAnimate } from "@formkit/auto-animate/react"
+import SearchBar from "../SearchBar/SearchBar";
 
 const Products = () => {
 
@@ -14,6 +15,7 @@ const Products = () => {
 
     return (
         <div>
+            <SearchBar />
             <div className={css.container}>
                 <div className={css.products}>
                     <ul className={css.menu}>

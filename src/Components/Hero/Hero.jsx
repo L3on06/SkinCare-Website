@@ -1,6 +1,6 @@
 import React from "react";
 import css from './Hero.module.css'
-import HeroImg from "../../assets/hero.png";
+import HeroImg from "../../assets/General/hero.png";
 import { RiShoppingBagFill } from "react-icons/ri"
 import { BsArrowRight } from "react-icons/bs"
 import { motion } from "framer-motion"

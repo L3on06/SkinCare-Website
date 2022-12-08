@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import css from "./Header.module.css"
-import Logo from "../../assets/logo.png"
+import Logo from "../../assets/General/logo.png"
 import { CgShoppingBag } from "react-icons/cg"
 import { GoThreeBars } from "react-icons/go"
 import { GrClose } from "react-icons/gr"
