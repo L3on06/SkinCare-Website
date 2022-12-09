@@ -19,6 +19,7 @@ export const AllBrands = [{
     detail: 'Super Skin Care',
     price: '15',
     img: brand1,
+    url: "https://www.skinceuticals.com/",
     type: 'skin care',
 },
 {
@@ -26,6 +27,7 @@ export const AllBrands = [{
     detail: 'Super Skin Care',
     price: '30',
     img: brand2,
+    url: "https://www.skinmedica.com/",
     type: 'skin care',
 },
 {
@@ -33,6 +35,7 @@ export const AllBrands = [{
     detail: 'Super Skin Care',
     price: '25',
     img: brand3,
+    url: "https://www.obagi.com/",
     type: 'skin care',
 },
 {
@@ -40,6 +43,7 @@ export const AllBrands = [{
     detail: 'Super Skin Care',
     price: '25',
     img: brand4,
+    url: "https://eltamd.com/",
     type: 'foundation',
 },
 {
@@ -47,6 +51,7 @@ export const AllBrands = [{
     detail: 'Super Skin Care',
     price: '30',
     img: brand5,
+    url: "https://isclinical.com/",
     type: 'conditioner',
 },
 {
@@ -54,6 +59,7 @@ export const AllBrands = [{
     detail: 'Super Skin Care',
     price: '25',
     img: brand6,
+    url: "https://www.neocutis.com/",
     type: 'skin care',
 },
 {
@@ -61,6 +67,7 @@ export const AllBrands = [{
     details: 'Best Conditioner',
     price: '30',
     img: brand7,
+    url: "https://viviscalprofessional.com/",
     type: 'conditioner'
 }
     ,
@@ -69,6 +76,7 @@ export const AllBrands = [{
     details: 'Best Conditioner',
     price: '30',
     img: brand8,
+    url: "https://replenix.com/",
     type: 'conditioner'
 },
 {
@@ -76,6 +84,7 @@ export const AllBrands = [{
     details: 'Best Conditioner',
     price: '30',
     img: brand9,
+    url: "https://www.epionce.com/",
     type: 'conditioner'
 },
 {
@@ -83,6 +92,7 @@ export const AllBrands = [{
     details: 'Best Conditioner',
     price: '30',
     img: brand10,
+    url: "https://janeiredale.com/",
     type: 'conditioner'
 },
 {
@@ -90,6 +100,7 @@ export const AllBrands = [{
     details: 'Nourish your skin',
     price: '12',
     img: brand11,
+    url: "https://www.laroche-posay.us/",
     type: 'foundation'
 },
 {
@@ -97,6 +108,7 @@ export const AllBrands = [{
     details: 'Nourish your skin',
     price: '12',
     img: brand12,
+    url: "https://www.pcaskin.com/",
     type: 'foundation'
 },
 {
@@ -104,6 +116,7 @@ export const AllBrands = [{
     details: 'Nourish your skin',
     price: '12',
     img: brand13,
+    url: "https://www.elemis.com/",
     type: 'foundation'
 },
 {
@@ -111,6 +124,7 @@ export const AllBrands = [{
     details: 'Nourish your skin',
     price: '12',
     img: brand14,
+    url: "https://www.pureology.com/",
     type: 'foundation'
 },
 {
@@ -118,6 +132,7 @@ export const AllBrands = [{
     detail: 'Super Skin Care',
     price: '15',
     img: brand1,
+    url: "https://www.skinceuticals.com/",
     type: 'skin care',
 },
 {
@@ -125,6 +140,7 @@ export const AllBrands = [{
     detail: 'Super Skin Care',
     price: '30',
     img: brand2,
+    url: "https://www.skinmedica.com/",
     type: 'skin care',
 },
 {
@@ -132,6 +148,7 @@ export const AllBrands = [{
     detail: 'Super Skin Care',
     price: '25',
     img: brand3,
+    url: "https://www.obagi.com/",
     type: 'skin care',
 },
 {
@@ -139,6 +156,7 @@ export const AllBrands = [{
     detail: 'Super Skin Care',
     price: '25',
     img: brand4,
+    url: "https://eltamd.com/",
     type: 'foundation',
 },
 {
@@ -146,6 +164,7 @@ export const AllBrands = [{
     detail: 'Super Skin Care',
     price: '30',
     img: brand5,
+    url: "https://isclinical.com/",
     type: 'conditioner',
 },
 {
@@ -153,6 +172,7 @@ export const AllBrands = [{
     detail: 'Super Skin Care',
     price: '25',
     img: brand6,
+    url: "https://www.neocutis.com/",
     type: 'skin care',
 },
 {
@@ -160,14 +180,15 @@ export const AllBrands = [{
     details: 'Best Conditioner',
     price: '30',
     img: brand7,
+    url: "https://viviscalprofessional.com/",
     type: 'conditioner'
-}
-    ,
+},
 {
     name: "CONDITIONER",
     details: 'Best Conditioner',
     price: '30',
     img: brand8,
+    url: "https://replenix.com/",
     type: 'conditioner'
 },
 {
@@ -175,6 +196,7 @@ export const AllBrands = [{
     details: 'Best Conditioner',
     price: '30',
     img: brand9,
+    url: "https://www.epionce.com/",
     type: 'conditioner'
 },
 {
@@ -182,6 +204,7 @@ export const AllBrands = [{
     details: 'Best Conditioner',
     price: '30',
     img: brand10,
+    url: "https://janeiredale.com/",
     type: 'conditioner'
 },
 {
@@ -189,6 +212,7 @@ export const AllBrands = [{
     details: 'Nourish your skin',
     price: '12',
     img: brand11,
+    url: "https://www.laroche-posay.us/",
     type: 'foundation'
 },
 {
@@ -196,6 +220,7 @@ export const AllBrands = [{
     details: 'Nourish your skin',
     price: '12',
     img: brand12,
+    url: "https://www.pcaskin.com/",
     type: 'foundation'
 },
 {
@@ -203,6 +228,7 @@ export const AllBrands = [{
     details: 'Nourish your skin',
     price: '12',
     img: brand13,
+    url: "https://www.elemis.com/",
     type: 'foundation'
 },
 {
@@ -210,7 +236,9 @@ export const AllBrands = [{
     details: 'Nourish your skin',
     price: '12',
     img: brand14,
+    url: "https://www.pureology.com/",
     type: 'foundation'
-}
+},
+
 
 ]

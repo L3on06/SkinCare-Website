@@ -13,8 +13,8 @@ const Brands = () => {
                     {
                         AllBrands.map((product, idx) => (
                             <div className={css.product}>
-                                <div>
-                                    <img src={product.img} alt="Products" className={css.img} />
+                                <div >
+                                    <a href={product.url}><img src={product.img} alt="Products" className={css.img} /></a>
                                 </div>
                             </div>
                         ))
