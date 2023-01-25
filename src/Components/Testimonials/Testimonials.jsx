@@ -44,7 +44,7 @@ const Testimonials = () => {
                     }}>
                     {
                         TestimonialsData.map((testimonial, idx) => (
-                            <SwiperSlide>
+                            <SwiperSlide key={idx}>
                                 <div className={css.testimonial}>
                                     <img src={testimonial.image} alt="testimonial" />
                                     <span>{testimonial.comment}</span>

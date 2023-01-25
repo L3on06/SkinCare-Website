@@ -34,7 +34,7 @@ const Slider = () => {
                 }}
             >
                 {SliderProducts.map((slide, idx) => (
-                    <SwiperSlide>
+                    <SwiperSlide key={idx}>
                         <div className="left-s">
                             <div className="name">
                                 <span>{slide.name}</span>

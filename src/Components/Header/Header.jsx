@@ -31,8 +31,6 @@ const Header = () => {
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/Products">Products</Link></li>
                     <li><Link to="/Brands">Brands</Link></li>
-                    <li><Link to="/DashBoard">DashBoard</Link></li>
-
                 </ul>
 
                 <CgShoppingBag className={css.cart} />
